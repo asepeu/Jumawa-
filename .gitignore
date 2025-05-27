@@ -1,2 +1,7 @@
 node_modules/
+yarn.lock
+.env
 session/
+.cache/
+npm-debug.log*
+.DS_Store
