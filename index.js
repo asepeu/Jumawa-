@@ -1,4 +1,7 @@
-const { default: makeWASocket, useSingleFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys')
+const baileys = require('@whiskeysockets/baileys')
+const makeWASocket = baileys.default
+const { useSingleFileAuthState, DisconnectReason } = baileys
+
 const { state, saveState } = useSingleFileAuthState('./session/auth_info.json')
 const welcome = require('./plugins/welcome')
 const minigame = require('./plugins/minigame')
