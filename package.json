@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-bot-jumawa",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp Termux dengan auto welcome dan minigames",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "JUMAWA",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^4.0.0"
+  }
+}
